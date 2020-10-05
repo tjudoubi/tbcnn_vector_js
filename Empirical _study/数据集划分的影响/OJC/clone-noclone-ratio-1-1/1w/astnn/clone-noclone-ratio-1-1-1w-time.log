@@ -1,0 +1,68 @@
+parse source code...
+parse_source_start_time:   2020-06-14 01:49:46.126190
+         0                                                  1   2
+0        0  \nint main()\n{\n    char str[256], substr[256...   7
+1        1  main()\n{\n   char a[300],b[300],c[300];\n   s...   7
+2        2  struct result\n{   int num;\n    int chn;\n   ...  14
+3        3  \nstruct data\n{\n\tint num[100000],a[100000],...  14
+4        4  \nint main()\n{\n\tstruct Patient\n\t{\n\t\tin...   9
+...    ...                                                ...  ..
+7494  7494  int main()\n{\n\tint n,k,i,j;\n\tscanf("%d %d"...   3
+7495  7495  int main(){\n\tint sz[100][100];\n\tint t,i,j,...   4
+7496  7496  int a[100][100][100];\nint main()\n{\n\tint k,...   6
+7497  7497  int main(int argc, char* argv[])\n{\n\tint N;\...   2
+7498  7498  int main ()\n{\n    int n,k;\n    scanf("%d",&...  13
+
+[7499 rows x 3 columns]
+parse_source_end_time:   2020-06-14 01:50:36.818542
+parse_source_during_time 50.69 
+read id pairs...
+split data...
+train word embedding...
+pairs:         id1   id2  label
+0     4969  7463      0
+1     1752  2241      0
+2     6773  6301      0
+3     2407   418      0
+4     2325  7299      1
+...    ...   ...    ...
+9995  2821  6979      1
+9996  1810  6772      0
+9997  3136  7188      1
+9998  3390  7041      0
+9999  6481  6184      0
+
+[10000 rows x 3 columns]
+trees:          id                                               code  label
+id                                                                  
+4969  4969  <pycparser.c_ast.FileAST object at 0x7f68bdb22...      6
+1752  1752  <pycparser.c_ast.FileAST object at 0x7f68c33ea...      3
+6773  6773  <pycparser.c_ast.FileAST object at 0x7f68ba825...      7
+2407  2407  <pycparser.c_ast.FileAST object at 0x7f68c214e...      9
+2325  2325  <pycparser.c_ast.FileAST object at 0x7f68c237c...     11
+...    ...                                                ...    ...
+5351  5351  <pycparser.c_ast.FileAST object at 0x7f68bd079...     10
+2970  2970  <pycparser.c_ast.FileAST object at 0x7f68c11b8...     14
+3592  3592  <pycparser.c_ast.FileAST object at 0x7f68c0156...     14
+2414  2414  <pycparser.c_ast.FileAST object at 0x7f68c2103...     15
+398    398  <pycparser.c_ast.FileAST object at 0x7f68c583d...     10
+
+[6993 rows x 3 columns]
+generate block sequences...
+generate_block_seqs_start_time:   2020-06-14 01:50:50.068943
+cxy blocks len: 7499
+generate_block_seqs_end_time:   2020-06-14 01:50:58.379752
+generate_block_seqs_during_time 8.31 
+merge pairs and blocks...
+cxy merge read pairs len: 10000
+cxy merge after pairs len: 10000
+cxy merge blocks len: 10000
+cxy final df len: 10000
+cxy merge read pairs len: 3333
+cxy merge after pairs len: 3333
+cxy merge blocks len: 3333
+cxy final df len: 3333
+cxy merge read pairs len: 20000
+cxy merge after pairs len: 20000
+cxy merge blocks len: 20000
+cxy final df len: 20000

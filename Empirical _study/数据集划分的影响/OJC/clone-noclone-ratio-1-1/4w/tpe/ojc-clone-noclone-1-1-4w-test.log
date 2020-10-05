@@ -1,0 +1,189 @@
+nohup: ignoring input
+program_start_time:  2020-06-14 22:17:51.241045
+GPU available:  True
+CuDNN: 
+ True
+Loaded config file sucessfully.
+data_dir /home/chengxiaoyun/LSTMCCloneTest/dataset/blstm/inputs/bcb/tpe
+pretrained_embeddings_file /home/chengxiaoyun/LSTMCCloneTest/dataset/blstm/inputs/bcb/tpe/ojclone-4000-tpe.vec
+train_file /home/chengxiaoyun/our-data-ojc/choose_ojc_data/clone-noclone-ratio-1-1/4w/tpe/train_tpe_4w.txt
+dev_file /home/chengxiaoyun/our-data-ojc/choose_ojc_data/clone-noclone-ratio-1-1/4w/tpe/dev_tpe_4w.txt
+test_file /home/chengxiaoyun/our-data-ojc/choose_ojc_data/clone-noclone-ratio-1-1/test_tpe_2w.txt
+min_occur_count 0
+save_dir /home/chengxiaoyun/LSTMCCloneTest/dataset/blstm/tpe/res
+config_file /home/chengxiaoyun/LSTMCCloneTest/dataset/blstm/tpe/res/config.cfg
+save_model_path /home/chengxiaoyun/LSTMCCloneTest/dataset/blstm/tpe/res/model
+save_vocab_path /home/chengxiaoyun/LSTMCCloneTest/dataset/blstm/tpe/res/vocab
+load_dir /home/chengxiaoyun/LSTMCCloneTest/dataset/blstm/tpe/model
+load_model_path /home/chengxiaoyun/LSTMCCloneTest/dataset/blstm/tpe/model/model
+load_vocab_path /home/chengxiaoyun/LSTMCCloneTest/dataset/blstm/tpe/model/vocab
+lstm_layers 1
+word_dims 100
+tag_dims 100
+dropout_emb 0.33
+lstm_hiddens 100
+dropout_lstm_input 0.33
+dropout_lstm_hidden 0.33
+mlp_arc_size 500
+mlp_rel_size 100
+dropout_mlp 0.33
+use_cosine 0
+learning_rate 2e-3
+decay .75
+decay_steps 1000
+beta_1 .9
+beta_2 .9
+epsilon 1e-12
+clip 1.0
+num_buckets_train 40
+num_buckets_valid 10
+num_buckets_test 10
+train_iters 50
+train_batch_size 64
+test_batch_size 64
+validate_every 700
+update_every 1
+save_after 1
+The dim of pretrained embeddings: 100
+
+GPU ID:0
+100 200
+Orthogonal pretrainer loss: 7.80e-31
+100 200
+Orthogonal pretrainer loss: 7.10e-31
+2 200
+Orthogonal pretrainer loss: 5.73e+00
+<function Module.cuda.<locals>.<lambda> at 0x7f7fa8d43b00>
+Always in cpu: function disabled
+Finished 20000 paired inputs.
+Total method num: 7468
+Sort method finished. 
+method num: 64,  representation time = 1.86 
+method num: 128,  representation time = 2.25 
+method num: 192,  representation time = 2.59 
+method num: 256,  representation time = 2.92 
+method num: 320,  representation time = 3.20 
+method num: 384,  representation time = 3.47 
+method num: 448,  representation time = 3.72 
+method num: 512,  representation time = 4.00 
+method num: 576,  representation time = 4.24 
+method num: 640,  representation time = 4.47 
+method num: 704,  representation time = 4.69 
+method num: 768,  representation time = 4.91 
+method num: 832,  representation time = 5.16 
+method num: 896,  representation time = 5.37 
+method num: 960,  representation time = 5.57 
+method num: 1024,  representation time = 5.78 
+method num: 1088,  representation time = 5.97 
+method num: 1152,  representation time = 6.16 
+method num: 1216,  representation time = 6.40 
+method num: 1280,  representation time = 6.59 
+method num: 1344,  representation time = 6.77 
+method num: 1408,  representation time = 6.94 
+method num: 1472,  representation time = 7.12 
+method num: 1536,  representation time = 7.29 
+method num: 1600,  representation time = 7.46 
+method num: 1664,  representation time = 7.67 
+method num: 1728,  representation time = 7.83 
+method num: 1792,  representation time = 7.99 
+method num: 1856,  representation time = 8.15 
+method num: 1920,  representation time = 8.31 
+method num: 1984,  representation time = 8.47 
+method num: 2048,  representation time = 8.62 
+method num: 2112,  representation time = 8.81 
+method num: 2176,  representation time = 8.96 
+method num: 2240,  representation time = 9.11 
+method num: 2304,  representation time = 9.26 
+method num: 2368,  representation time = 9.40 
+method num: 2432,  representation time = 9.54 
+method num: 2496,  representation time = 9.69 
+method num: 2560,  representation time = 9.83 
+method num: 2624,  representation time = 9.96 
+method num: 2688,  representation time = 10.14 
+method num: 2752,  representation time = 10.27 
+method num: 2816,  representation time = 10.41 
+method num: 2880,  representation time = 10.54 
+method num: 2944,  representation time = 10.67 
+method num: 3008,  representation time = 10.80 
+method num: 3072,  representation time = 10.93 
+method num: 3136,  representation time = 11.06 
+method num: 3200,  representation time = 11.18 
+method num: 3264,  representation time = 11.35 
+method num: 3328,  representation time = 11.48 
+method num: 3392,  representation time = 11.60 
+method num: 3456,  representation time = 11.72 
+method num: 3520,  representation time = 11.84 
+method num: 3584,  representation time = 11.96 
+method num: 3648,  representation time = 12.08 
+method num: 3712,  representation time = 12.20 
+method num: 3776,  representation time = 12.32 
+method num: 3840,  representation time = 12.44 
+method num: 3904,  representation time = 12.61 
+method num: 3968,  representation time = 12.73 
+method num: 4032,  representation time = 12.85 
+method num: 4096,  representation time = 12.96 
+method num: 4160,  representation time = 13.07 
+method num: 4224,  representation time = 13.18 
+method num: 4288,  representation time = 13.29 
+method num: 4352,  representation time = 13.40 
+method num: 4416,  representation time = 13.50 
+method num: 4480,  representation time = 13.60 
+method num: 4544,  representation time = 13.71 
+method num: 4608,  representation time = 13.84 
+method num: 4672,  representation time = 13.94 
+method num: 4736,  representation time = 14.04 
+method num: 4800,  representation time = 14.13 
+method num: 4864,  representation time = 14.23 
+method num: 4928,  representation time = 14.32 
+method num: 4992,  representation time = 14.41 
+method num: 5056,  representation time = 14.51 
+method num: 5120,  representation time = 14.60 
+method num: 5184,  representation time = 14.69 
+method num: 5248,  representation time = 14.78 
+method num: 5312,  representation time = 14.86 
+method num: 5376,  representation time = 14.95 
+method num: 5440,  representation time = 15.04 
+method num: 5504,  representation time = 15.16 
+method num: 5568,  representation time = 15.25 
+method num: 5632,  representation time = 15.33 
+method num: 5696,  representation time = 15.41 
+method num: 5760,  representation time = 15.49 
+method num: 5824,  representation time = 15.57 
+method num: 5888,  representation time = 15.65 
+method num: 5952,  representation time = 15.72 
+method num: 6016,  representation time = 15.80 
+method num: 6080,  representation time = 15.87 
+method num: 6144,  representation time = 15.95 
+method num: 6208,  representation time = 16.03 
+method num: 6272,  representation time = 16.10 
+method num: 6336,  representation time = 16.17 
+method num: 6400,  representation time = 16.24 
+method num: 6464,  representation time = 16.31 
+method num: 6528,  representation time = 16.42 
+method num: 6592,  representation time = 16.49 
+method num: 6656,  representation time = 16.55 
+method num: 6720,  representation time = 16.62 
+method num: 6784,  representation time = 16.68 
+method num: 6848,  representation time = 16.74 
+method num: 6912,  representation time = 16.80 
+method num: 6976,  representation time = 16.87 
+method num: 7040,  representation time = 16.93 
+method num: 7104,  representation time = 16.98 
+method num: 7168,  representation time = 17.04 
+method num: 7232,  representation time = 17.09 
+method num: 7296,  representation time = 17.14 
+method num: 7360,  representation time = 17.19 
+method num: 7424,  representation time = 17.24 
+method num: 7468,  representation time = 17.27 
+processed pair num: 6400,  classifier time = 0.53 
+processed pair num: 12800,  classifier time = 1.08 
+processed pair num: 19200,  classifier time = 1.55 
+processed pair num: 20000,  classifier time = 1.61 
+sentence num: 20000,  classifier time = 1.61 
+Total Acc = 19831/20000 = 99.16
+Type 0:  Prec = 9936/10041 = 98.95,  Recall = 9936/10000 = 99.36
+Type 1:  Prec = 9895/9895 = 100.00,  Recall = 9895/10000 = 98.95
+Clones:  Prec = 9895/9959 = 99.36,  Recall = 9895/10000 = 98.95,  F score 99.1533
+Non Clones:  Prec = 9936/10041 = 98.95,  Recall = 9936/10000 = 99.36,  F score 99.1567
+program_end_time:  2020-06-14 22:18:13.603785
+program_during_time:  22

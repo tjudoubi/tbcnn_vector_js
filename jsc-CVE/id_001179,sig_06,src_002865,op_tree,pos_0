@@ -1,0 +1,9 @@
+
+
+function foo(n) {
+    foo()
+}
+var indexP;
+var indexO = 0;
+foo()
+1e410000

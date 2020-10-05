@@ -1,0 +1,8 @@
+
+
+function foo(n) {
+    foo(indexP)
+}
+var indexP;
+var indexO = 0;
+foo(indexP)
